@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "Week 1: Maching Learning - Stanford"
+date:   2014-12-24 12:31:00
+categories: ml-006 machine learning stanford
+---
+
+# **_Welcome_**
+
+#### Machine Learning
+
+- Originated from research in AI
+- New capability for computers
+
+#### Examples
+
+- Database mining
+  - Large datasets from growth of automation/web
+  - e.g. web click data, medical records, biology, engineering
+
+- Applications we can't program by hand
+  - e.g. autonomous helicopter, handwriting recognition, most of Natural Language Processing (NLP), computer vision
+
+- Self-customizing programs
+  - e.g. Amazon, Netflix product recommendations
+
+- Understanding human learning 
+  - brain, real AI
+
+# **_What is Machine Learning?_**
+
+- Arthur Samuel (1959) Machine Learning: Field of study that gives computers the ability to learn without being explicitly programmed.
+
+- Tom Mitchell (1998) Well-posed Learning Problem: A computer program is said to **_learn_** from experience `E` with respect to some task `T` and some performance measure `P`, if its performance on `T`, as measured by `P`, improves with experience `E`.
+
+{% highlight html %}
+Q: Suppose your email program watches which emails you
+do or do not mark as spam, and based on that learns 
+how to better filter spam. What is the task 'T' in 
+this setting?
+
+A: Classifying emails as spam or not spam.
+{% endhighlight %}
+
+Machine learning algorithms:
+
+- Supervised learning
+- Unsupervised learning
+
+Others: reinforced learning, recommender systems
+
+# **_Supervised Learning_**
+
+__Supervised Learning__: Right answers given
+
+__Regression__: Predict continuous valued output
+
+_example_: Predict housing prices given previous pricing data
+
+__Classification__: Discrete valued output
+
+_example_: Predict probability that a breast tumor is malignant or benign, you can use multiple 'features' such as:
+
+- Patient age
+- Tumor size
+- Clump thickness
+- Uniformity of cell size
+- etc.
+
+
+{% highlight html %}
+Q: You’re running a company, and you want to develop
+learning algorithms to address each of two problems.
+
+Problem 1: You have a large inventory of identical
+items. You want to predict how many of these items
+will sell over the next 3 months.
+
+Problem 2: You’d like software to examine individual
+customer accounts, and for each account decide if it
+has been hacked/compromised.
+
+Should you treat these as classification or as
+regression problems?
+
+A: Treat problem 1 as a regression problem, problem 2
+as a classification problem.
+{% endhighlight %}
+
+# **_Unsupervised Learning_**
+
+Given a data set, can you find some structure within the data?
+
+__Clustering__: Assign data to different clusters (e.g. Google news - separates stories to 'clusters' of similar stories)
+
+More clustering applications include: 
+
+- Organizing computer clusters
+- Social network analysis
+- Market segmentation
+- Astronomical data analysis
+
+{% highlight html %}
+Cocktail party problem:
+
+How do you focus one's auditory attention on a
+particular stimulus while filtering out a range of
+other stimuli, much the same way that a partygoer can
+focus on a single conversation in a noisy room?
+
+This can be solved using a clustering algorithm to
+separate the different sources of sound.
+{% endhighlight %}
+
+More on source separation [here][source_separation_wiki].
+
+[source_separation_wiki]: http://en.wikipedia.org/wiki/Source_separation

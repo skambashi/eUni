@@ -14,7 +14,8 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; font-size: 0.5em">
-            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            {{ post.excerpt | strip_html }}
+            ...
           </p>
         </h2>
       </li>
