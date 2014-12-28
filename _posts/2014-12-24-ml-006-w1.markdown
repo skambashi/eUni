@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Week 1: Maching Learning - Stanford"
+title:  "Machine Learning - Stanford"
 date:   2014-12-24 12:31:00
 categories: ml-006 machine learning stanford
 ---
+
+# __Week 1: Introduction__
 
 # **_Welcome_**
 
@@ -115,3 +117,10 @@ separate the different sources of sound.
 More on source separation [here][source_separation_wiki].
 
 [source_separation_wiki]: http://en.wikipedia.org/wiki/Source_separation
+
+---
+
+# __Week 2: Linear Regression with One Variable__
+
+# ___Model Representation___
+
